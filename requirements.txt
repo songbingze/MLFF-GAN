@@ -1,0 +1,6 @@
+numpy==1.19.2
+pandas==1.2.3
+rasterio==1.1.0
+torch==1.8.0
+torchgan==0.0.5
+torchvision==0.9.0
