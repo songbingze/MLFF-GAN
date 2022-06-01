@@ -47,3 +47,18 @@ You can run training and testing programs through the following commands:
 ```
 python run.py --data_dir [dataset path] --save_dir [save path]
 ```
+
+## Citation
+
+If you find this work is useful for your research, please cite our paper:
+```
+@ARTICLE{9781347,
+  author={Song, Bingze and Liu, Peng and Li, Jun and Wang, Lizhe and Zhang, Luo and He, Guojin and Chen, Lajiao and Liu, Jianbo},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={MLFF-GAN: A Multilevel Feature Fusion With GAN for Spatiotemporal Remote Sensing Images}, 
+  year={2022},
+  volume={60},
+  number={},
+  pages={1-16},
+  doi={10.1109/TGRS.2022.3169916}}
+```
