@@ -20,7 +20,9 @@ pip install -r requirements.txt
 We conducted experiments using CIA and LGC data sets [[Emelyanova et al., 2013](https://www.sciencedirect.com/science/article/abs/pii/S0034425713000473)]. 
 
 You can use the following links to download the CIA and LGC datasets:
+
 CIA Dataset: http://dx.doi.org/10.4225/08/5111AC0BF1229
+
 LGC Dataset: http://dx.doi.org/10.4225/08/5111AD2B7FEE6
 
 The downloaded data needs to be converted to TIF and keeped the original file name, such as "L71093084_08420011007_HRF_modtran_surf_ref_agd66.tif", "MOD09GA_A2001281.sur_refl.tif". Next, organize the folders of the dataset into the following:
