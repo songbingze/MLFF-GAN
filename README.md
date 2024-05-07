@@ -58,7 +58,8 @@ python run.py --data_dir [dataset path] --save_dir [save path]
 
 Trained model download: [[Link](https://1drv.ms/f/s!AtkYVZhw2KXSa1KSdtmLJtCWDdo?e=RKAmTN)]
 
-Regarding the calculation of metrics, the article utilizes the skimage.metrics module from the skimage library. The SSIM (Structural Similarity Index) ranges from -1.0 to 1.0 (default setting in skimage=0.19.3, subsequent versions require specifying the range parameter).
+The calculation of metrics in the paper, including all comparative experiments and ablation study models, utilized the 'skimage.metrics' module from the scikit-image library. 
+The range of SSIM (Structural Similarity Index) is from -1.0 to 1.0 (the default setting in scikit-image from version 0.19.3 onward requires specifying the range parameter).
 
 ## Citation
 
