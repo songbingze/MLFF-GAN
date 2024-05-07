@@ -56,6 +56,10 @@ You can run training and testing programs through the following commands:
 python run.py --data_dir [dataset path] --save_dir [save path]
 ```
 
+Trained model download: [[Link](https://1drv.ms/f/s!AtkYVZhw2KXSa1KSdtmLJtCWDdo?e=RKAmTN)]
+
+Regarding the calculation of metrics, the article utilizes the skimage.metrics module from the skimage library. The SSIM (Structural Similarity Index) ranges from -1.0 to 1.0 (default setting in skimage=0.19.3, subsequent versions require specifying the range parameter).
+
 ## Citation
 
 If you find this work is useful for your research, please cite our paper:
